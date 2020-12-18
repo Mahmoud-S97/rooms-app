@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Title from '../components/Title';
-import { FaShuttleVan, FaBeer, FaCocktail, FaHiking } from 'react-icons/fa';
+import { FaShuttleVan, FaCoffee, FaCocktail, FaHiking } from 'react-icons/fa';
 
 class Services extends Component {
 
@@ -12,8 +12,8 @@ state = {
             info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry."
         },
         {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <FaCoffee />,
+            title: "Free Coffee",
             info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry."
         },
         {
